@@ -18,7 +18,7 @@ Bu projeyi forkladıktan sonra bilgisayarınıza klonlayın.
 
 | N | Metod  | Uçnokta                 | Açıklama                                                                                                                     |
 | - | ------ | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 1 | GET    | /api/posts              | Veritabanında bulunan **tüm post nesnelerinin bir dizisini** döndürür                                                             |
+                                                           |
 | 2 | GET    | /api/posts/:id          | **belirtilen kimliğe sahip post nesnesini** döndürür                                                                              |
 | 3 | POST   | /api/posts              | İstek gövdesi içinde gönderilen bilgileri kullanarak bir post oluşturur ve **yeni oluşturulan post nesnesini** döndürür           |
 | 4 | PUT    | /api/posts/:id          | İstek gövdesinden alınan verileri kullanarak postu belirtilen id ile günceller ve orijinali değil **değiştirilen postu döndürür** |
